@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c66e0175bab92244fa4ad373dff4c5dd
+timeCreated: 1527486757
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - currentWindow: {instanceID: 0}
+  - consoleUIPrefab: {fileID: 1203651877712376, guid: 367fc18fb6e33e4498133af8b7fca9de,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

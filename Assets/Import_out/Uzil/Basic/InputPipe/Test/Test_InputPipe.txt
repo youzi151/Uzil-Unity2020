@@ -1,0 +1,5 @@
+
+
+UZAPI.Input.AddOnInput("Test", "system", 887, "test1", Callback.newID("input.get.887", function (data_str)
+    print(data_str);
+end));

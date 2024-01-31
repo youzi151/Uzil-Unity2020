@@ -1,0 +1,26 @@
+{
+	"publishedID": "<CREATE>",
+
+	"tags": [], 
+
+	"previewImagePath": "./preview.jpg",
+	/* './' = upload.info's parent directory*/
+
+	"contentPath": "./modExample", 
+	/* './' = upload.info's parent directory*/
+	
+	"contentUpdateNote": "version, note, etc.",
+
+	"texts":[
+		{
+			"language":"english",
+			"title": "Example",
+			"description": "some introduction..."
+		},
+		{
+			"language":"tchinese",
+			"title": "範例",
+			"description": "一些介紹"
+		}
+	]
+}

@@ -1,0 +1,1 @@
+print("[modExample]: onLoaded");

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 810106237
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6ae6be215f46490e58a61fa4c30f7c72
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dc0f446bb9dbd38742987675ab96e886
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Import_out/Uzil/Basic/Res/_Test/ForBundle/Test_ResAudio.mp3
+- Assets/Import_out/Uzil/Basic/Res/_Test/ForBundle/Test_ResTexture.jpg
+- Assets/Import_out/Uzil/Basic/Res/_Test/ForBundle/Test_ResText.txt
+Dependencies: []
