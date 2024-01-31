@@ -1,0 +1,29 @@
+
+
+預備時：
+
+ResLoader_Mod
+ModResMgr 依照 開啟遊戲當下的各Mod 建立 資源註冊表
+有需要時，在ResMgr中用Res資訊的tag去尋找相關資源 並 預載/卸載
+
+其他常規ResLoader
+僅呼叫各Loader，使其各自決定如何預載
+如ResLoader_AssetBundle，會在ResMgr中用Res資訊的tag當作AssetBundle的Bundle名稱 預載/卸載
+
+
+使用時：
+使用者 以 path 取得Res資訊
+Res資訊 包含 path, tags 
+使用者 以 Res資訊 向ResMgr請求資源
+ResMgr 檢查暫存
+    若有 則 返回暫存資源
+    若沒有 則 試著取得
+向 各個讀取器 取得資源
+1. ResLoader_Mod
+    依照 註冊表 從對應Mod中讀取檔案並解析為資源
+2. ResLoader_File
+    從檔案讀取
+3. ResLoader_AssetBundle
+    從bundle中讀取資源
+4. ResLoader_Resources
+    從Resources中讀取資源
