@@ -18,6 +18,6 @@
 
 ## 使用開放原始碼授權
 
-詳見 [Lib License](./assets/Import_out/Uzil/license)
+詳見 [Lib License](./Assets/Import_out/Uzil/license)
 
 若有遺漏, 還請告知. 謝謝.
